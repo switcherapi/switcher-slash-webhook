@@ -1,0 +1,5 @@
+slack_hook_endpoint: <%= ENV['SLACK_WEBHOOK_ENDPOINT'] %>
+slack_hook_token: <%= ENV['SLACK_WEBHOOK_TOKEN'] %>
+switcher_load_balance: <%= ENV['LOAD_BALANCE_ENDPOINT'] %>
+switcher_api_key: <%= ENV['SWITCHER_API_KEY'] %>
+switcher_api_domain: Switcher API
