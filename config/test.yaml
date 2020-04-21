@@ -1,0 +1,5 @@
+slack_hook_endpoint: https://hooks.slack.com/services/
+slack_hook_token: $up3r$s3kr3t
+switcher_load_balance: https://switcher-load-balance.herokuapp.com
+switcher_api_key: $up3r$s3kr3t
+switcher_api_domain: Switcher API

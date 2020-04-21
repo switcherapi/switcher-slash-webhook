@@ -43,7 +43,7 @@ class ApiController < Sinatra::Base
         rescue StandardError => e
             puts e.message
             Rack::Response.new(
-                { text: "Invalid command - example: /cmd check-prd FEATURE Roger"}
+                { text: "Invalid command - example: /cmd check-prd FEATURE -v Roger"}
                 .to_json, 404, { 'Content-Type' => 'application/json' }).finish
         end
     end
