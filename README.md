@@ -52,7 +52,7 @@
 
 ### Request - check API (GET)
 ```
-{{url}}/cmd?token=CrNvcww3ekLYgd1tfokVXwO1&text=check-prd+FEATURE01+-v+Roger
+{{url}}/cmd?token=SLASH_CMD_TOKEN&text=check-prd+FEATURE01+-v+Roger
 ```
 ### Response
 ```json
