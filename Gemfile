@@ -11,3 +11,8 @@ group :test do
   gem 'rack-test'
   gem 'webmock'
 end
+
+platform :mswin, :mingw, :x64_mingw do
+  gem "tzinfo-data"
+  gem "win32_api"
+end
