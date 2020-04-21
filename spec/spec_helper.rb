@@ -1,10 +1,12 @@
 ENV['RACK_ENV'] = 'test'
 
+require 'coveralls'
 require 'webmock/rspec'
 require_relative File.join('..', 'app')
 require_relative File.join('../controllers', 'loadbalance_controller')
 require_relative File.join('../controllers', 'api_controller')
 
+Coveralls.wear!
 WebMock.disable_net_connect!(allow_localhost: true)
 
 RSpec.configure do |config|

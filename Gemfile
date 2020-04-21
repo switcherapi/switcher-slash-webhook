@@ -8,6 +8,8 @@ group :test, :development do
 end
   
 group :test do
+  gem 'coveralls', '~> 0.8.23'
+  gem 'simplecov', require: false
   gem 'rack-test'
   gem 'webmock'
 end

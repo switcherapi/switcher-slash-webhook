@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/petruki/switcher-slash-webhook.svg?branch=master)](https://travis-ci.com/github/petruki/switcher-slash-webhook)
+[![Coverage Status](https://coveralls.io/repos/github/petruki/switcher-slash-webhook/badge.svg?branch=master)](https://coveralls.io/github/petruki/switcher-slash-webhook?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Slack: Switcher-HQ](https://img.shields.io/badge/slack-@switcher/hq-blue.svg?logo=slack)](https://switcher-hq.slack.com/)
 
