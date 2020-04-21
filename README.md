@@ -47,7 +47,7 @@
     ]
 }
 ```
-![Sample: status cmd](https://raw.githubusercontent.com/petruki/skimming/master/asset/sample_status.jpg)
+![Sample: status cmd](https://raw.githubusercontent.com/petruki/switcher-slash-webhook/master/asset/sample_status.jpg)
 
 ### Request - check API (GET)
 ```
@@ -82,7 +82,7 @@
     ]
 }
 ```
-![Sample: check API cmd](https://raw.githubusercontent.com/petruki/skimming/master/asset/sample_checkapi.jpg)
+![Sample: check API cmd](https://raw.githubusercontent.com/petruki/switcher-slash-webhook/master/asset/sample_checkapi.jpg)
 
 # Contributing
 Please do open an issue or PR if you feel you have something cool to add.
