@@ -1,6 +1,12 @@
 ENV['RACK_ENV'] = 'test'
 
+require 'simplecov'
 require 'webmock/rspec'
+require 'coveralls'
+
+Coveralls.wear!
+SimpleCov.start 'rails'
+
 require_relative File.join('..', 'app')
 require_relative File.join('../controllers', 'loadbalance_controller')
 require_relative File.join('../controllers', 'api_controller')
