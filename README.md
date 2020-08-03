@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.com/petruki/switcher-slash-webhook.svg?branch=master)](https://travis-ci.com/github/petruki/switcher-slash-webhook)
-[![Coverage Status](https://coveralls.io/repos/github/petruki/switcher-slash-webhook/badge.svg?branch=master)](https://coveralls.io/github/petruki/switcher-slash-webhook?branch=master)
+[![Build Status](https://travis-ci.com/switcherapi/switcher-slash-webhook.svg?branch=master)](https://travis-ci.com/github/switcherapi/switcher-slash-webhook)
+[![Coverage Status](https://coveralls.io/repos/github/switcherapi/switcher-slash-webhook/badge.svg?branch=master)](https://coveralls.io/github/switcherapi/switcher-slash-webhook?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Slack: Switcher-HQ](https://img.shields.io/badge/slack-@switcher/hq-blue.svg?logo=slack)](https://switcher-hq.slack.com/)
 
-![Switcher API: Cloud-based Feature Flag API](https://github.com/petruki/switcherapi-assets/blob/master/logo/switcherapi_grey.png)
+![Switcher API: Cloud-based Feature Flag API](https://github.com/switcherapi/switcherapi-assets/blob/master/logo/switcherapi_grey.png)
 
 # Requirements  
 - Ruby (Sinatra)
@@ -31,7 +31,7 @@
             },
             "accessory": {
                 "type": "image",
-                "image_url": "https://raw.githubusercontent.com/petruki/switcherapi-assets/master/logo/switcher_mark_grey.png",
+                "image_url": "https://raw.githubusercontent.com/s/switcherapi-assets/master/logo/switcher_mark_grey.png",
                 "alt_text": "Switcher API"
             }
         },
@@ -48,7 +48,7 @@
     ]
 }
 ```
-![Sample: status cmd](https://raw.githubusercontent.com/petruki/switcher-slash-webhook/master/asset/sample_status.jpg)
+![Sample: status cmd](https://raw.githubusercontent.com/switcherapi/switcher-slash-webhook/master/asset/sample_status.jpg)
 
 ### Request - check API (GET)
 ```
@@ -66,7 +66,7 @@
             },
             "accessory": {
                 "type": "image",
-                "image_url": "https://raw.githubusercontent.com/petruki/switcherapi-assets/master/logo/switcher_mark_grey.png",
+                "image_url": "https://raw.githubusercontent.com/switcherapi/switcherapi-assets/master/logo/switcher_mark_grey.png",
                 "alt_text": "Switcher API"
             }
         },
@@ -83,7 +83,7 @@
     ]
 }
 ```
-![Sample: check API cmd](https://raw.githubusercontent.com/petruki/switcher-slash-webhook/master/asset/sample_checkapi.jpg)
+![Sample: check API cmd](https://raw.githubusercontent.com/switcherapi/switcher-slash-webhook/master/asset/sample_checkapi.jpg)
 
 # Contributing
 Please do open an issue or PR if you feel you have something cool to add.

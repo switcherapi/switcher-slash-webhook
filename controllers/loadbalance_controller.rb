@@ -27,7 +27,7 @@ class LoadBalanceController < Sinatra::Base
                     },
                     "accessory": {
                         "type": "image",
-                        "image_url": "https://raw.githubusercontent.com/petruki/switcherapi-assets/master/logo/switcher_mark_grey.png",
+                        "image_url": "https://raw.githubusercontent.com/switcherapi/switcherapi-assets/master/logo/switcher_mark_grey.png",
                         "alt_text": "Switcher API"
                     }
                 },
