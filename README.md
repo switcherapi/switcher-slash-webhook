@@ -11,7 +11,30 @@
 - Coffee =D
 
 # About  
-**Switcher Slash Webhook** is a API wrapper used to invoke both Switcher Load Balance and Switcher API from the Slack using Slash Command add-on for Slack.
+**Switcher Slash Webhook** is a API wrapper used to invoke both Switcher Load Balance and Switcher API from the Slack app using Slash Command add-on.
+
+# Installing/Running
+
+### Setup the environment
+Changes on *config/development.yaml* file.
+```
+slack_hook_endpoint: [SLACK_HOOK_URL]
+slack_hook_token: [SLACK_API_KEY]
+switcher_load_balance: https://switcher-load-balance.herokuapp.com
+switcher_api_key: [SWITCHER_COMPONENT_KEY]
+switcher_api_domain: [SWITCHER_DOMAIN_NAME]
+```
+
+### Running
+> bundle install
+> rackup -p 4567
+
+### Testing
+> rspec
+
+
+* * *
+
 
 # Usage
 
