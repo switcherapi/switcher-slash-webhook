@@ -2,12 +2,13 @@ class ApiController < Sinatra::Base
 
     @token
     @timeExp
+    @env
 
     def self.command(settings, cmd)
         # Read & Validate command
         cmdFragments = validateCmd(cmd)
 
-        if !@token or Time.now.to_i > @timeExp
+        if !@token or Time.now.to_i > @timeExp or @env != cmdFragments[0]
             response = apiAuth(settings, cmdFragments[0])
             @token = JSON.parse(response)["token"]
             @timeExp = JSON.parse(response)["exp"]
@@ -112,6 +113,11 @@ class ApiController < Sinatra::Base
 
     def self.createPayload(apiResponse, cmd)
         jsonObj = JSON.parse(apiResponse)
+
+        if jsonObj["error"]
+            jsonObj["reason"] = jsonObj["error"]
+        end
+
         result = jsonObj["result"] ? 'Passed' : 'Failed'
         webhook_message = '{
             "blocks": [
