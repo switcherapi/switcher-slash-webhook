@@ -9,7 +9,7 @@ before_install:
 script:
   - bundle exec rake
 
-deploy:
-  provider: heroku
-  app: switcher-slash-webhook
-  api_key: ${HEROKU_KEY}
+# deploy:
+#   provider: heroku
+#   app: switcher-slash-webhook
+#   api_key: ${HEROKU_KEY}
