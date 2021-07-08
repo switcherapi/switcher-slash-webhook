@@ -12,5 +12,5 @@ group :test do
   gem 'coveralls', '~> 0.8.23'
   gem 'simplecov', require: false
   gem 'rack-test'
-  gem 'webmock'
+  gem 'webmock', '>= 3.8.3'
 end
