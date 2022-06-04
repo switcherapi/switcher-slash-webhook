@@ -7,7 +7,7 @@ A Slash Add-on App for Slack
 
 <div align="center">
 
-[![Build Status](https://travis-ci.com/switcherapi/switcher-slash-webhook.svg?branch=master)](https://travis-ci.com/github/switcherapi/switcher-slash-webhook)
+[![Master CI](https://github.com/switcherapi/switcher-slash-webhook/actions/workflows/master.yml/badge.svg)](https://github.com/switcherapi/switcher-slash-webhook/actions/workflows/master.yml)
 [![Coverage Status](https://coveralls.io/repos/github/switcherapi/switcher-slash-webhook/badge.svg?branch=master)](https://coveralls.io/github/switcherapi/switcher-slash-webhook?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Slack: Switcher-HQ](https://img.shields.io/badge/slack-@switcher/hq-blue.svg?logo=slack)](https://switcher-hq.slack.com/)
