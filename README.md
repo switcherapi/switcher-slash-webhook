@@ -1,17 +1,30 @@
+***
+
+<div align="center">
+<b>Switcher Slash Webhook</b><br>
+A Slash Add-on App for Slack
+</div>
+
+<div align="center">
+
 [![Build Status](https://travis-ci.com/switcherapi/switcher-slash-webhook.svg?branch=master)](https://travis-ci.com/github/switcherapi/switcher-slash-webhook)
 [![Coverage Status](https://coveralls.io/repos/github/switcherapi/switcher-slash-webhook/badge.svg?branch=master)](https://coveralls.io/github/switcherapi/switcher-slash-webhook?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Slack: Switcher-HQ](https://img.shields.io/badge/slack-@switcher/hq-blue.svg?logo=slack)](https://switcher-hq.slack.com/)
 
+</div>
+
+***
+
 ![Switcher API: Cloud-based Feature Flag API](https://github.com/switcherapi/switcherapi-assets/blob/master/logo/switcherapi_grey.png)
 
 # Requirements  
-- Ruby (Sinatra)
-- Slash add-on
+- Ruby (Sinatra) 1.3 (Release 2.2.x)
+- Slash add-on for Slack
 - Coffee =D
 
 # About  
-**Switcher Slash Webhook** is a API wrapper used to invoke both Switcher Load Balance and Switcher API from the Slack app using Slash Command add-on.
+**Switcher Slash Webhook** is a API wrapper used to check both Switcher Load Balance and Switcher API from the Slack app using Slash Command add-on.
 
 # Installing/Running
 
