@@ -1,7 +1,18 @@
 ENV['RACK_ENV'] = 'test'
 
 require 'simplecov'
-SimpleCov.start
+require 'simplecov'
+
+SimpleCov.start do
+  require 'simplecov-lcov'
+
+  SimpleCov::Formatter::LcovFormatter.config do |c|
+    c.report_with_single_file = true
+    c.single_report_path = 'coverage/lcov.info'
+  end
+
+  formatter SimpleCov::Formatter::LcovFormatter
+end
 
 require 'webmock/rspec'
 require_relative File.join('..', 'app')
