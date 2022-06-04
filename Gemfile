@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "sinatra"
 gem 'sinatra-contrib'
+gem 'puma'
 
 group :test, :development do
   gem "rake"
@@ -9,8 +10,9 @@ group :test, :development do
 end
   
 group :test do
-  gem 'coveralls', '~> 0.8.23'
+  gem 'coveralls_reborn', '~> 0.24.0', require: false
   gem 'simplecov', require: false
+  gem 'simplecov-lcov', '~> 0.8.0'
   gem 'rack-test'
   gem 'webmock', '>= 3.8.3'
 end
