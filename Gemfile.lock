@@ -80,6 +80,7 @@ DEPENDENCIES
   rack-test
   rake
   rspec
+  simplecov
   sinatra
   sinatra-contrib
   webmock (>= 3.8.3)
