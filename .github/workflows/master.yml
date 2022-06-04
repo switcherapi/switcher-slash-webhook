@@ -25,4 +25,9 @@ jobs:
         bundler-cache: true
   
     - name: Run tests
-      run: COVERALLS_REPO_TOKEN=${{ secrets.COVERALLS_REPO_TOKEN }} bundle exec rspec spec
+      run: bundle exec rake
+
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}

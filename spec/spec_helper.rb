@@ -1,10 +1,20 @@
 ENV['RACK_ENV'] = 'test'
 
-require 'coveralls'
-Coveralls.wear!
+require 'simplecov'
+SimpleCov.start 'rails' do
+  if ENV['CI']
+    require 'simplecov-lcov'
 
-# require 'simplecov'
-# SimpleCov.start 'rails'
+    SimpleCov::Formatter::LcovFormatter.config do |c|
+      c.report_with_single_file = true
+      c.single_report_path = 'coverage/lcov.info'
+    end
+
+    formatter SimpleCov::Formatter::LcovFormatter
+  end
+
+  add_filter %w[version.rb initializer.rb]
+end
 
 require 'webmock/rspec'
 require_relative File.join('..', 'app')

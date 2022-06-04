@@ -10,8 +10,7 @@ group :test, :development do
 end
   
 group :test do
-  gem 'coveralls', '~> 0.8.23'
-  gem 'simplecov', require: false
+  gem 'coveralls_reborn', '~> 0.24.0', require: false
   gem 'rack-test'
   gem 'webmock', '>= 3.8.3'
 end
